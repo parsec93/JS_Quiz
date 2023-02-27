@@ -1,26 +1,67 @@
 [
   {
-    "question": "Inside which HTML element do we put the JavaScript??",
-    "choice1": "<script>",
-    "choice2": "<javascript>",
-    "choice3": "<js>",
-    "choice4": "<scripting>",
-    "answer": 1
-  },
-  {
-    "question": "What is the correct syntax for referring to an external script called 'xxx.js'?",
-    "choice1": "<script href='xxx.js'>",
-    "choice2": "<script name='xxx.js'>",
-    "choice3": "<script src='xxx.js'>",
-    "choice4": "<script file='xxx.js'>",
+    "question": "토현성당 주임신부님의 세례명은 ... 이다.",
+    "choice1": "베드로",
+    "choice2": "바오로",
+    "choice3": "안드레아",
+    "choice4": "요셉",
     "answer": 3
   },
   {
-    "question": " How do you write 'Hello World' in an alert box?",
-    "choice1": "msgBox('Hello World');",
-    "choice2": "alertBox('Hello World');",
-    "choice3": "msg('Hello World');",
-    "choice4": "alert('Hello World');",
+    "question": "토현성당 보좌신부님의 세례명은 ... 이다.",
+    "choice1": "블라디미르",
+    "choice2": "요셉",
+    "choice3": "미카엘",
+    "choice4": "블라시오",
     "answer": 4
+  },
+  {
+    "question": "다음 중 토현성당 설립일로 맞는 것은?",
+    "choice1": "1985년 7월 21일",
+    "choice2": "1988년 7월 21일",
+    "choice3": "1988년 8월 15일",
+    "choice4": "1998년 8월 15일",
+    "answer": 2
+  },
+  {
+    "question": "다음 중 토현성당의 주보성인은?",
+    "choice1": "묵주기도의 성모",
+    "choice2": "나자렛의 성 요셉",
+    "choice3": "원죄없이 잉태되신 성모",
+    "choice4": "성 프란치스코 하비에르",
+    "answer": 1
+  },
+  {
+    "question": "토현성당의 구역은 .. 개다.",
+    "choice1": "7",
+    "choice2": "8",
+    "choice3": "9",
+    "choice4": "10",
+    "answer": 2
+  },
+  {
+    "question": "2023년 3월 4일 기준, 초등부 선생님은 총 .. 명이다.",
+    "choice1": "6",
+    "choice2": "7",
+    "choice3": "8",
+    "choice4": "9",
+    "answer": 1
+  },
+  {
+    "question": "2023년 3월 4일 기준, 중고등부 선생님은 총 .. 명이다.",
+    "choice1": "6",
+    "choice2": "7",
+    "choice3": "8",
+    "choice4": "9",
+    "answer": 1
+  },
+  {
+    "question": "다음 중 토현성당의 주보성인은?",
+    "choice1": "묵주기도의 성모",
+    "choice2": "나자렛의 성 요셉",
+    "choice3": "원죄없이 잉태되신 성모",
+    "choice4": "성 프란치스코 하비에르",
+    "answer": 1
   }
 ]
+
