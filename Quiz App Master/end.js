@@ -27,8 +27,8 @@ saveHighScore = (e) => {
     localStorage.setItem('highScores', JSON.stringify(highScores));
     window.location.assign('https://js-quiz-dusky.vercel.app');
 };
-
-$("#saveScoreBtn").click(function(e){
+const saveBtn = document.getElementById("saveScoreBtn");
+saveBtn.addEventListener('click', event => {
     html2canvas(document.getElementById("capture_area")).then(function(canvas) {
         var el = document.createElement("a")
         el.href = canvas.toDataURL("image/jpeg")
