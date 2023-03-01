@@ -30,7 +30,7 @@ saveHighScore = (e) => {
 
 $('#saveScoreBtn').click(function(e){
     html2canvas(document.getElementById("capture_area")).then(function(canvas) {
-        var el = document.createElement("a")
+        const el = document.createElement("a")
         el.href = canvas.toDataURL("image/jpeg")
         el.download = '토잘알 퀴즈 점수.jpg' //다운로드 할 파일명 설정
         el.click()

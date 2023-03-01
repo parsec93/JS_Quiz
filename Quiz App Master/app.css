@@ -117,9 +117,12 @@ input {
   margin-bottom: 1rem;
   width: 20rem;
   padding: 1.5rem;
-  font-size: 1.8rem;
+  font-size: 1.3rem;
+  font-weight: bolder;
   border: none;
   box-shadow: 0 0.1rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+  display:block;
+  text-align: center;
 }
 
 input::placeholder {
