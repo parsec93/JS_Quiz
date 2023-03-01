@@ -18,7 +18,7 @@ fetch('./questions.json')
         return res.json();
     })
     .then((loadedQuestions) => {
-        question = loadedQuestions;
+        questions = loadedQuestions;
         startGame();
     })
     .catch((err) => {
