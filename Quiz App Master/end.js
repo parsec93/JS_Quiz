@@ -29,7 +29,7 @@ saveHighScore = (e) => {
 };
 const saveBtn = document.getElementById("saveScoreBtn");
 saveBtn.addEventListener('click', event => {
-    html2canvas(document.getElementById("caputer_area")).then(canvas => {
+    html2canvas(document.getElementById("capture_area")).then(canvas => {
         document.body.appendChild(canvas);
     })
    /* html2canvas(document.getElementById("capture_area")).then(function(canvas) {
