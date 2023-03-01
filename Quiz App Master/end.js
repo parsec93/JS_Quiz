@@ -27,15 +27,15 @@ saveHighScore = (e) => {
     localStorage.setItem('highScores', JSON.stringify(highScores));
     window.location.assign('https://js-quiz-dusky.vercel.app');
 };
-const saveBtn = document.getElementById("saveScoreBtn");
-saveBtn.addEventListener('click', event => {
+//const saveBtn = document.getElementById("saveScoreBtn");
+$('#saveScoreBtn').click((e) => {
     html2canvas(document.getElementById("capture_area")).then(canvas => {
         document.body.appendChild(canvas);
-    })
+    });
    /* html2canvas(document.getElementById("capture_area")).then(function(canvas) {
         const el = document.createElement("a")
         el.href = canvas.toDataURL("image/jpeg")
         el.download = '토잘알 퀴즈.jpg' //다운로드 할 파일명 설정
         el.click()
     })*/
-})
+});
