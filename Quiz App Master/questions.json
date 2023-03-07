@@ -1,90 +1,82 @@
 [
   {
-    "question": "토현성당 주임신부님의 세례명은 전수홍 (...) 이다.",
-    "choice1": "베드로",
-    "choice2": "바오로",
-    "choice3": "안드레아",
-    "choice4": "요셉",
+    "question": "JVM에 대한 설명 중 틀린 것은?",
+    "choice1": "JVM은 java.exe 명령어에 의해 구동된다.",
+    "choice2": "JVM은 바이트 코드를 기계어로 변환시키고 실행한다.",
+    "choice3": "JVM은 운영체제에 독립적이다.(운영체제별로 동일한 JVM이 사용된다.)",
+    "choice4": "바이트 코드는 JVM에 독립적이지만, JVM은 운영체제에 종속적이다.",
     "answer": 3
   },
   {
-    "question": "토현성당 보좌신부님의 세례명은 조현우 (...) 이다.",
-    "choice1": "블라디미르",
-    "choice2": "요셉",
-    "choice3": "미카엘",
-    "choice4": "블라시오",
+    "question": "자바 소스 파일을 작성할 때 틀린것은 무엇입니까?",
+    "choice1": "자바 소스 파일명과 클래스 이름은 대소문자가 동일해야 한다.",
+    "choice2": "클래스 블록과 메소드 블록은 반드시 중괄호 {} 로 감싸야 한다.",
+    "choice3": "실행문 뒤에는 반드시 세미콜론(;)을 붙여야 한다.",
+    "choice4": "주석은 문자열 안에도 작성할 수 있다.",
     "answer": 4
   },
   {
-    "question": "다음 중 토현성당 설립일로 맞는 것은?",
-    "choice1": "1985년 7월 21일",
-    "choice2": "1988년 7월 21일",
-    "choice3": "1988년 8월 15일",
-    "choice4": "1998년 8월 15일",
+    "question": "다음 중 자바 주석문이 아닌 것은?",
+    "choice1": "// : 행주석",
+    "choice2": "/* ... */ : 범위 주석",
+    "choice3": "/** ... */ : API 도큐먼트 주석",
+    "choice4": "<--...--> : 범위 주석",
+    "answer": 4
+  },
+  {
+    "question": "다음 연산자와 연산식에 대한 설명 중 틀린 것은?",
+    "choice1": "연산자는 피연산자의 수에 따라 단항, 이항, 삼항 연산자로 구분된다.",
+    "choice2": "비교 연산자와 논리 연산자의 산출 타입은 boolean(true/false)이다.",
+    "choice3": "연산식은 하나 이상의 값을 산출할 수도 있다.",
+    "choice4": "하나의 값이 올 수 있는 자리라면 연산식도 올 수 있다.",
+    "answer": 3
+  },
+  {
+    "question": "조건문과 반복문을 설명한 것 중 틀린 것은?",
+    "choice1": "if문은 조건식의 결과에 따라 실행 흐름을 달리할 수 있다.",
+    "choice2": "switch문에서 사용할 수 있는 변수의 타입은 int, double이 될 수 있다.",
+    "choice3": "for문은 카운터 변수로 지정된 횟수만큼 반복시킬 때 사용할 수 있다.",
+    "choice4": "break문은 switch문, for문, while문을 종료할 때 사용할 수 있다.",
     "answer": 2
   },
   {
-    "question": "다음 중 토현성당의 주보성인은?",
-    "choice1": "묵주기도의 성모",
-    "choice2": "나자렛의 성 요셉",
-    "choice3": "원죄없이 잉태되신 성모",
-    "choice4": "성 프란치스코 하비에르",
+    "question": "다음 중 switch 문에 대한 설명으로 틀린 것은?",
+    "choice1": "switch문은 변수가 어떤 값을 갖느냐에 따라 실행문이 선택된다.",
+    "choice2": "switch(변수)의 변수와 동일한 값을 갖는 case가 없으면 default로 가서 실행문을 실행시킨다.",
+    "choice3": "case 끝에 break가 없다면 다음 case가 연달아 실행된다.",
+    "choice4": "case 에 맞는 값만 실행되기 때문에 break는 없어도 된다.",
+    "answer": 4
+  },
+  {
+    "question": "다음 중 삼항 연산자가 올바로 사용된 것은?",
+    "choice1": "(피연산자1) ? (피연산자2) : (피연산자3)",
+    "choice2": "(피연산자1) ! (피연산자2) : (피연산자3)",
+    "choice3": "(피연산자1) : (피연산자2) ? (피연산자3)",
+    "choice4": "(피연산자1) ? (피연산자2) ; (피연산자3)",
     "answer": 1
   },
   {
-    "question": "토현성당의 구역은 (...) 개다.",
-    "choice1": "7",
-    "choice2": "8",
-    "choice3": "9",
-    "choice4": "10",
-    "answer": 2
+    "question": "다음 연산의 결과로 옳은 것은? \"JDK\" + 3 + 3.0;",
+    "choice1": "JDK6.0",
+    "choice2": "JDK6",
+    "choice3": "JDK33.0",
+    "choice4": "JDK33",
+    "answer": 3
   },
   {
-    "question": "2023년 3월 4일 기준, 초등부 선생님은 총 (...) 명이다.",
-    "choice1": "4",
-    "choice2": "5",
-    "choice3": "6",
-    "choice4": "7",
-    "answer": 2
+    "question": "int result = num % 3 의 값으로 올 수 없는 것은?",
+    "choice1": "0",
+    "choice2": "1",
+    "choice3": "2",
+    "choice4": "3",
+    "answer": 4
   },
   {
-    "question": "2023년 3월 4일 기준, 중고등부 선생님은 총 (...) 명이다.",
-    "choice1": "6",
-    "choice2": "7",
-    "choice3": "8",
-    "choice4": "9",
-    "answer": 2
-  },
-  {
-    "question": "초등부 교무주임 선생님은 (...) 이다.",
-    "choice1": "전민규 바오로",
-    "choice2": "차지윤 글라라",
-    "choice3": "임효원 마리아",
-    "choice4": "손채영 미카엘라",
-    "answer": 2
-  },
-  {
-    "question": "23년 기준 차지윤 글라라 선생님은 총 (...) 년차 교사이다.",
-    "choice1": "9",
-    "choice2": "10",
-    "choice3": "11",
-    "choice4": "12",
-    "answer": 2
-  },
-  {
-    "question": "23년 기준 김재학 요셉 선생님은 총 (...) 년차 교사이다.",
+    "question": "int x = 1;\nint y= 1;\nint result = y++ 10;\nresult의 값으로 옳은 것은?",
     "choice1": "10",
     "choice2": "11",
     "choice3": "12",
     "choice4": "13",
-    "answer": 3
-  },
-  {
-    "question": "23년 기준 권근호 미카엘 선생님은 총 (...) 년차 교사이다.",
-    "choice1": "7",
-    "choice2": "8",
-    "choice3": "9",
-    "choice4": "10",
-    "answer": 3
+    "answer": 2
   }
 ]
